@@ -20,6 +20,7 @@ public class ArticleApiController {
     // GET (조회)
     @GetMapping("/api/articles")
     public List<Article> index() {
+
         return articleService.index();
     }
 
