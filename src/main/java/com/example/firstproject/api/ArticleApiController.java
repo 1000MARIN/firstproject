@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Slf4j
-@RestController // RestAPI용 컨트롤러! JSON을 반환!
+@RestController // RestAPI를 위한 컨트롤러 선언! JSON을 반환!
 public class ArticleApiController {
     @Autowired  // DI, 생성 객체를 가져와 연결!
     private ArticleService articleService;
