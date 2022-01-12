@@ -7,7 +7,9 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
-@Entity // DB가 해당 객체를 인식 가능!
+
+@Entity// DB가 해당 객체를 인식 가능!
+@Table
 @AllArgsConstructor
 @NoArgsConstructor  // 디폴드 생성자 추가 어노테이션
 @ToString
